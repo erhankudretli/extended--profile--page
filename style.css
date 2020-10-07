@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap');
+main{
+    font-family: 'David Libre', serif;
+    background-color: #f8f8f8;
+}
+.özgecmis{
+    max-width: 600px;
+    background-color: yellow;
+}
+caption{
+font-size: 2em;
+}
+/* Burada tüm sectionlarin altlarina bosluk veriyorum */
+* section{
+    margin-bottom: 30px;
+}
+/* Hobilerim ve becerilerim ayni sinifta oldugu icin, id ile aralarina bosluk veriyourm */
+#becerilerim{
+    margin-top: 30px;
+}
+/* Burada id seciciler ile kisa özgecmis paragrafini stillendirecegim  */
+#renkli{
+    color: tomato;
+}
+#italik{
+    font-style: italic;
+    color: rgb(71, 15, 228);
+    text-transform: uppercase;
+}
+#alti--cizili{
+    text-decoration-line: underline;
+}
+#harf-araligi{
+    letter-spacing: 2px;
+    color: rgb(240, 14, 14);
+    text-transform: uppercase;
+}
+#büyük--harf{
+text-transform: uppercase;
+}
+/* Burada okul gecmisi tablosunu stilleyecegim */
+
+#okul--gecmisi{
+    border-collapse: collapse;
+  width: 100%;
+}
+#okul--gecmisi td, #okul--gecmisi th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  #okul--gecmisi tr:nth-child(even){background-color: #f2f2f2;}
+
+  #okul--gecmisi tr:hover {background-color: #ddd;}
+  #okul--gecmisi th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  /* Burada calisma gecmisi tablosunu stilleyecegim */
+  #is--gecmisi{
+      background-color: #C24E36;
+      border-collapse: collapse;
+      width: 100%;
+  }
+  #is--gecmisi > div{
+    background-color: #f8f8f8;
+}
+#is--gecmisi td, #is--gecmisi th{
+border: 2px dotted #ffffff;
+padding: 10px;
+}
+#is--gecmisi tr:nth-child(even){background-color:#DC9688;}
+#is--gecmisi tr:hover{ background-color: #f4f4f4;
+}
+#is--gecmisi th{
+    color: #ffffff;
+    padding-top: 12px 0px;
+    text-align: left;
+    background-color: #8F3928;
+    color: white;
+}
+/*Burada cocuklarim tablosunu stilleyecegim   */
+#cocuk{
+    background-color: #489EC2;
+    border-collapse: collapse;
+    width: 100%;
+}
+#cocuk td, #cocuk th{
+    border: 2px double #ffffff;
+    padding: 10px;
+    color: white;
+    }
+#cocuk tr:nth-child(odd){background-color:#DC9688;}
+#cocuk tr:hover{ background-color: #316275;}
+#cocuk th{
+        color: #ffffff;
+        padding-top: 12px 0px;
+        text-align: left;
+        background-color: #8F3928;
+        color: rgb(216, 216, 216);
+}
+/*Burada arkadaslarim tablosunu stilleyecegim   */
+#arkadas--tablosu{
+    background-color: #e63946;
+    border-collapse: collapse;
+    width: 100%;
+}
+#arkadas--tablosu td, #arkadas--tablosu th{
+    border: 2px double #ffffff;
+    padding: 10px;
+    color: white;
+    }
+    #arkadas--tablosu tr:nth-child(odd){background-color:#457b9d;}
+    #arkadas--tablosu tr:hover{ background-color: #1d3557;}
+    #arkadas--tablosu th{
+        color: #000000;
+        padding-top: 12px 0px;
+        text-align: left;
+        background-color: #a8dadc;
+    }
+    #hobi--tablosu{
+    background-color: #e63946;
+    border-collapse: collapse;
+    width: 100%;
+    }
+    #hobi--tablosu td, #hobi--tablosu th{
+        border: 2px double #ffffff;
+        padding: 10px;
+        color: white;
+        }
+        #hobi--tablosu tr:nth-child(even){background-color:#7209b7;}
+    #hobi--tablosu tr:hover{ background-color: #4cc9f0;}
+    #hobi--tablosu th{
+        color: #000000;
+        padding-top: 12px 0px;
+        text-align: left;
+        background-color: #f72585;
+    }
